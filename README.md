@@ -97,20 +97,6 @@ app/
     └── admin/          # (Optional) Admin interface
         └── dashboard.html
 
-agent/                  # AI agent context management
-├── context/           # Core project context (immutable)
-│   ├── architecture.md    # System architecture and patterns
-│   ├── constraints.md     # Project constraints and limitations
-│   ├── goals.md          # Project objectives and success criteria
-│   └── standards/        # Development standards and practices
-├── memory/            # Persistent knowledge (append-only)
-│   ├── decisions/        # Key technical decisions and rationales
-│   ├── progress/         # Development progress and milestones
-│   └── learnings/        # Insights and lessons learned
-└── workspace/         # Active development (mutable)
-    ├── current/          # Current task context and state
-    ├── planning/         # Task breakdown and implementation plans
-    └── validation/       # Testing and verification criteria
 ```
 
 ## Updating Your Project
